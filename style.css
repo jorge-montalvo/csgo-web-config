@@ -1,0 +1,110 @@
+body {
+    color: white;
+    font: 12pt Calibri, sans-serif;
+    background: #222;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    background: #9b9909;
+    padding: 5px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+h3:not(:first-child) {
+       
+}
+
+h4 {
+    border-bottom: 1px solid white;
+    font-weight: normal;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 1080px;
+    background: #0a5868;
+    padding: 20px;
+}
+
+#header {
+    margin-bottom: 10px;
+}
+
+#settings-wrapper{
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    border: none;
+    outline: none;
+    padding:0;
+}
+
+.setting {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    width: 350px;
+    padding-top: 25px;
+    height: 50px;
+    margin: 0 10px 5px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+.setting-cat {
+}
+
+.setting * {
+    overflow: hidden;
+    display: inline-block;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="number"]{
+    width: 50px;
+}
+
+input[type="range"]{
+    top: 1px;
+    margin-right: 0;
+}
+
+input[type="checkbox"]{
+}
+svg {
+    margin-right: 10px;
+}
+
+.enabled {
+    position: absolute;
+    top: 0; left: 0;
+    margin: 0;
+}
+
+input, select {
+    top: -4px;
+    position: relative;
+}
+
+output {
+    width: 3em;
+}
